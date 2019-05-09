@@ -37,7 +37,7 @@ def identityTries(F,evaluatee,tries=1000,tolerance=0.0001):
 
 #Method to partition S into two subsets
 def partition(S,last,summ, s1, s2):
-    #If one of the two sets adds up to half of the sum... This means that remaining set has the other half of the sum
+    #If one of the two sets adds up to half of the sum... This means that the remaining set has the other half of the sum
     #Meaning sum(s1)==sum(s2)
     if summ == 0:
         return True, s1, s2
