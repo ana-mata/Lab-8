@@ -41,7 +41,7 @@ def partition(S,last,summ, s1, s2):
     #Meaning sum(s1)==sum(s2)
     if summ == 0:
         return True, s1, s2
-    #If it doesn't reach the sum or if we went through the list
+    #If it doesn't reach the sum or if we went through the list go back
     if summ<0 or last<0:
         return False, s1, s2
     
